@@ -1,43 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="student.xsl"?>
-<!-- ข้อมูลนักศึกษา เทอมต้น ปีการศึกษา 2569 -->
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
 <student>
-    <studentId>2410511106013</studentId>
-    <firstName>ณัฐพล</firstName>
-    <lastName>อัปการัตน์</lastName>
-    <faculty>วิทยาศาสตร์</faculty>
-    <major>เทคโนโลยีสารสนเทศและการสื่อสาร (ICT)</major>
-    <year>3</year>
-    <gpa>2.64</gpa>
+    <!-- ข้อมูลส่วนตัวนักศึกษา -->
+    <profile>
+        <profile_picture>https://cdn-icons-png.flaticon.com/512/3135/3135715.png</profile_picture>
+        <student_id>2410511106013</student_id>
+        <first_name>ณัฐพล</first_name>
+        <last_name>อัปการัตน์</last_name>
+        <faculty>เทคโนโลยีสารสนเทศและการสื่อสาร (ICT)</faculty>
+        <year>3</year>
+        <gpa>2.64</gpa>
+    </profile>
 
+    <!-- ข้อมูลการลงทะเบียนเรียน -->
     <registration>
         <semester>เทอมต้น</semester>
-        <academicYear>2569</academicYear>
+        <academic_year>2569</academic_year>
+        
         <courses>
             <course>
-                <code>ICT301</code>
-                <name>การพัฒนาเว็บแอปพลิเคชัน</name>
-                <credits>3</credits>
+                <course_code>SI342-1</course_code>
+                <day>จันทร์</day>
+                <time>8:30-12:20</time>
+                <room>15201A</room>
+                <building>15</building>
             </course>
             <course>
-                <code>ICT302</code>
-                <name>ระบบฐานข้อมูล</name>
-                <credits>3</credits>
+                <course_code>GE923-1</course_code>
+                <day>อังคาร</day>
+                <time>8:30-11:00</time>
+                <room>7204</room>
+                <building>07</building>
             </course>
             <course>
-                <code>ICT303</code>
-                <name>เครือข่ายคอมพิวเตอร์</name>
-                <credits>3</credits>
+                <course_code>SI443-1</course_code>
+                <day>อังคาร</day>
+                <time>12:20-16:10</time>
+                <room>1205B</room>
+                <building>01</building>
             </course>
             <course>
-                <code>ICT304</code>
-                <name>การวิเคราะห์และออกแบบระบบ</name>
-                <credits>3</credits>
+                <course_code>SI361-1</course_code>
+                <day>พุธ</day>
+                <time>8:30-12:20</time>
+                <room>1205A</room>
+                <building>01</building>
             </course>
             <course>
-                <code>GE301</code>
-                <name>วิชาศึกษาทั่วไป</name>
-                <credits>3</credits>
+                <course_code>SI237-1</course_code>
+                <day>พุธ</day>
+                <time>14:30-17:00</time>
+                <room>1304</room>
+                <building>01</building>
+            </course>
+            <course>
+                <course_code>SI227-59</course_code>
+                <day>เสาร์</day>
+                <time>8:30-16:10</time>
+                <room>15201B</room>
+                <building>15</building>
             </course>
         </courses>
     </registration>
