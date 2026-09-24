@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<!-- ข้อมูลนักศึกษา เทอมต้น ปีการศึกษา 2569 -->
+<student>
+    <studentId>2410511106013</studentId>
+    <firstName>ณัฐพล</firstName>
+    <lastName>อัปการัตน์</lastName>
+    <faculty>วิทยาศาสตร์</faculty>
+    <major>เทคโนโลยีสารสนเทศและการสื่อสาร (ICT)</major>
+    <year>3</year>
+    <gpa>2.64</gpa>
+
+    <registration>
+        <semester>เทอมต้น</semester>
+        <academicYear>2569</academicYear>
+        <courses>
+            <course>
+                <code>ICT301</code>
+                <name>การพัฒนาเว็บแอปพลิเคชัน</name>
+                <credits>3</credits>
+            </course>
+            <course>
+                <code>ICT302</code>
+                <name>ระบบฐานข้อมูล</name>
+                <credits>3</credits>
+            </course>
+            <course>
+                <code>ICT303</code>
+                <name>เครือข่ายคอมพิวเตอร์</name>
+                <credits>3</credits>
+            </course>
+            <course>
+                <code>ICT304</code>
+                <name>การวิเคราะห์และออกแบบระบบ</name>
+                <credits>3</credits>
+            </course>
+            <course>
+                <code>GE301</code>
+                <name>วิชาศึกษาทั่วไป</name>
+                <credits>3</credits>
+            </course>
+        </courses>
+    </registration>
+</student>
